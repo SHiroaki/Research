@@ -260,7 +260,7 @@ class FlowController(object):
             # print type(knowledge_dict)
             result[g] = deepcopy(knowledge_dict)
 
-        f = open("BA12Agent_100gen.dump", "w")
+        f = open("BA12Agent_100gen_100utter.dump", "w")
         pickle.dump(result, f)
         f.close()
 

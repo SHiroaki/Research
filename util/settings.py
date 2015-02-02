@@ -31,7 +31,7 @@ class TableParam(object):
 
 
 def utter_setting():
-    utterance_time = 10
+    utterance_time = 100
     return utterance_time
 
 

@@ -266,6 +266,6 @@ class FlowController(object):
 
 if __name__ == '__main__':
     # 世代
-    GEN = 100
+    GEN = 50
     f = FlowController(GEN)
     f.simulation()

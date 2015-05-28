@@ -156,7 +156,6 @@ class FlowController(object):
             [x.join() for x in processes]
 
             if q.empty():
-                # とりあえずこれで
                 break
 
         p.join()

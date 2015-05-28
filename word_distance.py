@@ -23,7 +23,7 @@ def dmeta(w):
     dmeta = fuzzy.DMetaphone()
     dmeta_str = dmeta(w)
 
-    return dmeta_str[0]  # とりあえず一つだけ返す
+    return dmeta_str[0]  # 一つだけ返す
 
 
 def distance_vec():
